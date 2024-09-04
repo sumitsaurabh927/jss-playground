@@ -1,0 +1,103 @@
+/* Dark Mode Styles */
+.dark {
+    background-color: #1a1919;
+    color: #c8baba;
+    min-height: 100vh;
+  }
+  
+  .dark .nav button {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  .dark .nav button:hover {
+    background-color: #2a2a2a;
+  }
+  
+  .dark .nav .active {
+    /* background-color: #007bff; */
+    background-color: #2a2a2a;
+    color: #ffffff;
+  }
+  
+  /* Light Mode Styles */
+  .light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .light .nav button {
+    background-color: #f2f2f2;
+    color: #000000;
+  }
+  
+  .light .nav button:hover {
+    background-color: #007bff;
+  }
+  
+  .light .nav .active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Common Styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .nav .nav-left, .nav .nav-right {
+    flex: 1;
+  }
+  
+  .nav .nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .themeToggle {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .themeToggle:hover {
+    background-color: #7d7878;
+  }
+  
+  .nav button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .name{
+    color: #F82E30;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+  }
